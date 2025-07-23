@@ -1,0 +1,65 @@
+.navbar {
+  width: 100%;
+  max-width: 100vw;
+  background: #0a66c2;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  height: 56px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(10,102,194,0.08);
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.navbar-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.navbar-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+}
+
+.scan-label {
+  color: #e3e9f3;
+  font-size: 0.97rem;
+  margin: 0 2px;
+}
+
+.scan-time, .scan-timer {
+  font-weight: 500;
+  color: #fff;
+  background: rgba(255,255,255,0.08);
+  border-radius: 4px;
+  padding: 2px 7px;
+  font-size: 0.98rem;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 0 8px;
+    height: 48px;
+    font-size: 0.98rem;
+  }
+  .navbar-title {
+    font-size: 1.05rem;
+  }
+  .navbar-status {
+    font-size: 0.93rem;
+    gap: 4px;
+  }
+  .scan-time, .scan-timer {
+    padding: 1px 4px;
+    font-size: 0.93rem;
+  }
+} 

@@ -1,0 +1,26 @@
+# Ignore environment files in server
+server/.env
+.env
+# Node modules (if any in root or server)
+node_modules/
+server/node_modules/
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+build/
+dist/
+
+# IDE/editor folders
+.vscode/
+.idea/
+.DS_Store
+
+# Misc
+*.local
